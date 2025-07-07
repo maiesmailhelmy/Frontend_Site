@@ -1,0 +1,267 @@
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.logo_part {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+ nav ul {
+    display: flex;
+}
+nav ul .button1{
+    background-color: rgb(255, 221, 0);
+        color: black;
+        padding: 20px 40px;
+        font-size: 15px;
+        font-weight: bolder;
+        border-radius: 15px;
+        cursor: pointer;
+        font-family:sans-serif;
+        font-weight: 1000px;
+       
+}
+
+ nav ul li {
+    margin-left: 70px;
+    font-weight: 200px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ nav ul li .home,.about,.conf,.news  {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 20%;
+}
+
+ nav ul li a:hover {
+    color:#dfce0e;
+}
+ .main1{
+    background-image: url('img1.jpg');
+    background-size: cover; /* Ensures the image covers the whole screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    height: 100vh; /* Ensures the body takes the full viewport height */
+    margin: 0
+}
+ .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+     gap: 20px;
+    font-weight: bold;
+    padding: 0 0 50px 100px;
+    text-align: left;
+    height: 100vh;
+}
+ .button1{
+    
+        background-color: rgb(255, 221, 0);;
+        color: black;
+        padding: 20px 40px;
+        font-size: 24px;
+        font-weight: bold;
+        border-radius: 15px;
+        cursor: pointer;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: auto; 
+}
+
+.text-content {
+    width: 50%;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+}
+
+.text-content h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.image-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end; /* Aligns image to the right */
+}
+
+.place-image {
+    width: 100%;
+    max-width: 900px; /* Adjust as needed */
+    height: 100%;
+    max-height: 700px;
+    border-radius: 10px;
+}
+.button2 {
+    background-color:rgb(255, 221, 0);;
+    color: black;
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 30px ;
+    outline: 2px solid black; 
+    /* border-color: black; */
+    cursor: pointer;
+    margin-top: 50px;
+    margin-right: 370px;
+     /* Add spacing between multiple buttons */
+    border: none; /* Optional: Remove default button border */
+}
+.main3{
+    background-color: black;
+}
+.activities {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+
+.activity-card {
+    width: 45%;
+    background-color:rgba(19, 18, 18, 0.126);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.activity-card:hover {
+    transform: translateY(-10px);
+}
+
+.activity-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.activity-card h3 {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.activity-card p {
+    margin-top: 10px;
+    font-size: 1 rem;
+    color:rgb(255, 221, 0);;
+    text-align: justify; /* Ensures the text is evenly distributed */
+    line-height: 1.6; /* Adds spacing between lines */
+    text-indent: 20px; /* Indents the first line */
+    margin: 20px; /* Adds space around the paragraph */
+}
+
+
+
+.main4 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    background-image: url('img3.jpg');
+    background-size: cover; 
+    background-position: top center;
+
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-color: white;
+    
+     min-height: 120vh;  
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    overflow:visible;
+}
+.page5-text{
+    font-weight: bolder;
+    font-size: larger;
+    color:  rgb(9, 2, 49);
+    text-align: center;
+    margin-left: 120px;
+
+    margin-top: 40px;
+    margin-right: 60px;
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+}
+
+ .imag1 {
+    width: 200px; 
+    height: auto;
+    justify-content: space-between;
+    gap:25%;
+    margin-left: 95%;
+    
+    margin-top: 20%;
+}
+.imag2{
+    width: 200px; 
+    height: auto;
+    justify-content: space-between;
+    gap:75%;
+    margin-left: 35%;
+  
+    margin-top: 20%;
+
+
+}
+nav  .icons{
+    
+    display:inline-flex;
+    margin: 0 -150px;
+    gap: 10% ;
+    margin-top: 10%;
+}
+.footer{
+    margin-top: 25%;
+    
+}
